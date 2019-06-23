@@ -14,5 +14,5 @@ if [ $here -eq 1 ];
 		clear && chmod +x subdo.php && php subdo.php
 elif [ $here -eq 2 ];
 	then
-		clear && chmod +x mirrorh.py && python2 mirrorh.py
+		clear && chmod +x mirror-h.py && python2 mirror-h.py
 fi
