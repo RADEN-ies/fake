@@ -10,7 +10,7 @@ import requests
 print """
 \033[0;36m#####################	\033[91m| \033[0mAuto Submit mirror-h.org 
 \033[0;36m# \033[93m|SUBMITER| \033[0;36m#	\033[91m| \033[92m@Author : MR.W4HYU
-\033[0;36m# \033[93m|DONG|-|H| \033[0;36m#	\033[91m| \033[92m@Github : https://github.com/RADEN-ies
+\033[0;36m# \033[93m|DONG    | \033[0;36m#	\033[91m| \033[92m@Github : https://github.com/RADEN-ies
 \033[0;36m#####################	\033[91m| \033[92m@Version : 1.0
 """
 nick = raw_input("\033[91mNick Kamu: \033[0m")
@@ -26,4 +26,4 @@ f=open(liat,'r')
 kontent=f.read()
 x=kontent.split("\n")		
 for i in x:
-cek(nick, i)
+cek(nick ,i)
